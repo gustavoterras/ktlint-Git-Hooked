@@ -2,8 +2,5 @@ package com.example.ktlint
 
 class MainViewModel {
 
-    // Teste
-    fun FunTeste() {
-        // Todo implementação
-    }
+    fun add(a: Int, b: Int) = a + b
 }
