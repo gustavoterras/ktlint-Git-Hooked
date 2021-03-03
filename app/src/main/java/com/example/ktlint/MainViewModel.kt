@@ -3,7 +3,7 @@ package com.example.ktlint
 class MainViewModel {
 
     // Teste
-    fun FuncTeste() {
+    fun FunTeste() {
         // Todo implementação
     }
 }
