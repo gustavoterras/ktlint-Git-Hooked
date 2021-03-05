@@ -1,4 +1,4 @@
-import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     repositories {
@@ -32,11 +32,11 @@ allprojects {
         outputColorName.set("RED")
         ignoreFailures.set(true)
         enableExperimentalRules.set(true)
-        additionalEditorconfigFile.set(file("/some/additional/.editorconfig"))
-        disabledRules.set(setOf("final-newline"))
-        reporters {
-            reporter(ReporterType.PLAIN)
-            reporter(ReporterType.CHECKSTYLE)
+        // additionalEditorconfigFile.set(file("/some/additional/.editorconfig"))
+        // disabledRules.set(setOf("final-newline"))
+//        reporters {
+//            reporter(ReporterType.PLAIN)
+//            reporter(ReporterType.CHECKSTYLE)
 
 //            customReporters {
 //                register("csv") {
@@ -48,14 +48,14 @@ allprojects {
 //                    dependency = "com.example:ktlint-yaml-reporter:1.0.0"
 //                }
 //            }
-        }
+//        }
 //        kotlinScriptAdditionalPaths {
 //            include(fileTree("scripts/"))
 //        }
-        filter {
-            exclude("**/generated/**")
-            include("**/kotlin/**")
-        }
+//        filter {
+//            exclude("**/generated/**")
+//            include("**/kotlin/**")
+//        }
     }
 
 //    dependencies {
