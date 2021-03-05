@@ -1,5 +1,4 @@
 import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
-
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     repositories {
@@ -16,10 +15,14 @@ buildscript {
     }
 }
 
-subprojects {
-    apply(plugin = "org.jlleitschuh.gradle.ktlint") // Version should be inherited from parent
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
 
-    // Optionally configure plugin
+    apply(plugin = "org.jlleitschuh.gradle.ktlint")
+
     configure<org.jlleitschuh.gradle.ktlint.KtlintExtension> {
         version.set("0.40.0")
         debug.set(true)
@@ -58,13 +61,6 @@ subprojects {
 //    dependencies {
 //        ktlintRuleset(project(":rules"))
 //    }
-}
-
-allprojects {
-    repositories {
-        google()
-        jcenter()
-    }
 }
 
 tasks {

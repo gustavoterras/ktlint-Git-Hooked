@@ -19,12 +19,5 @@ class OneLineFunctionRule : Rule("one-line-function") {
                 emit(node.startOffset, "need return type!!!", false)
             }
         }
-
-
-
-
-
-
-        
     }
 }

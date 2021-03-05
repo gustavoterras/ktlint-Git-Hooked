@@ -1,5 +1,5 @@
-include (":rules")
-include (":baa")
-include (":foo")
-include (":app")
+include(":rules")
+include(":baa")
+include(":foo")
+include(":app")
 rootProject.name = "Ktlint"

@@ -9,7 +9,5 @@ class NeonRuleSetProvider : RuleSetProvider {
         OneLineFunctionRule(),
         NoVarRule()
 
-
-
     )
 }
