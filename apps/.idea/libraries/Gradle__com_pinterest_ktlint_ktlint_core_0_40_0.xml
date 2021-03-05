@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pinterest.ktlint:ktlint-core:0.40.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pinterest.ktlint/ktlint-core/0.40.0/385c580ae26b6ef76040c7fa9d8d07ab7936e50d/ktlint-core-0.40.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pinterest.ktlint/ktlint-core/0.40.0/440cb446b7083fc01cb47b714ff35be8d20125b7/ktlint-core-0.40.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pinterest.ktlint/ktlint-core/0.40.0/c00d97921665208d38381fc277d8ca5066385ff8/ktlint-core-0.40.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

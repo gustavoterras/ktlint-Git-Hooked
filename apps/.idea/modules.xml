@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ktlint.iml" filepath="$PROJECT_DIR$/.idea/modules/Ktlint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Ktlint.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Ktlint.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/baa/Ktlint.baa.iml" filepath="$PROJECT_DIR$/.idea/modules/baa/Ktlint.baa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/foo/Ktlint.foo.iml" filepath="$PROJECT_DIR$/.idea/modules/foo/Ktlint.foo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rules/Ktlint.rules.iml" filepath="$PROJECT_DIR$/.idea/modules/rules/Ktlint.rules.iml" />
+    </modules>
+  </component>
+</project>
