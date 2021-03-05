@@ -1,3 +1,5 @@
+import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     repositories {
@@ -19,8 +21,43 @@ subprojects {
 
     // Optionally configure plugin
     configure<org.jlleitschuh.gradle.ktlint.KtlintExtension> {
+        version.set("0.40.0")
         debug.set(true)
+        verbose.set(true)
+        android.set(false)
+        outputToConsole.set(true)
+        outputColorName.set("RED")
+        ignoreFailures.set(true)
+        enableExperimentalRules.set(true)
+        additionalEditorconfigFile.set(file("/some/additional/.editorconfig"))
+        disabledRules.set(setOf("final-newline"))
+        reporters {
+            reporter(ReporterType.PLAIN)
+            reporter(ReporterType.CHECKSTYLE)
+
+//            customReporters {
+//                register("csv") {
+//                    fileExtension = "csv"
+//                    dependency = project(":project-reporters:csv-reporter")
+//                }
+//                register("yaml") {
+//                    fileExtension = "yml"
+//                    dependency = "com.example:ktlint-yaml-reporter:1.0.0"
+//                }
+//            }
+        }
+//        kotlinScriptAdditionalPaths {
+//            include(fileTree("scripts/"))
+//        }
+        filter {
+            exclude("**/generated/**")
+            include("**/kotlin/**")
+        }
     }
+
+//    dependencies {
+//        ktlintRuleset(project(":rules"))
+//    }
 }
 
 allprojects {
