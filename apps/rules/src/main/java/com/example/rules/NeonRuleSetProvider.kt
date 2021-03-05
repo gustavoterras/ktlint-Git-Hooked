@@ -8,5 +8,10 @@ class NeonRuleSetProvider : RuleSetProvider {
         "neon-style-rule",
         OneLineFunctionRule(),
         NoVarRule()
+
+
+
+
+    
     )
 }
