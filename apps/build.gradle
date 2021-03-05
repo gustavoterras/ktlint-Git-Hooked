@@ -25,6 +25,10 @@ subprojects {
     ktlint {
         debug = true
     }
+
+    dependencies {
+        ktlintRuleset project(":rules")
+    }
 }
 
 allprojects {
