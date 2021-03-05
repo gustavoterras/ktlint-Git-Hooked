@@ -23,17 +23,17 @@ allprojects {
 
     apply(plugin = "org.jlleitschuh.gradle.ktlint")
 
-    configure<org.jlleitschuh.gradle.ktlint.KtlintExtension> {
-        version.set("0.40.0")
-        debug.set(true)
-        verbose.set(true)
-        android.set(false)
-        outputToConsole.set(true)
-        outputColorName.set("RED")
-        ignoreFailures.set(true)
-        enableExperimentalRules.set(true)
-        // additionalEditorconfigFile.set(file("/some/additional/.editorconfig"))
-        // disabledRules.set(setOf("final-newline"))
+//    configure<org.jlleitschuh.gradle.ktlint.KtlintExtension> {
+//        version.set("0.40.0")
+//        debug.set(true)
+//        verbose.set(true)
+//        android.set(false)
+//        outputToConsole.set(true)
+//        outputColorName.set("RED")
+//        ignoreFailures.set(true)
+//        enableExperimentalRules.set(true)
+    // additionalEditorconfigFile.set(file("/some/additional/.editorconfig"))
+    // disabledRules.set(setOf("final-newline"))
 //        reporters {
 //            reporter(ReporterType.PLAIN)
 //            reporter(ReporterType.CHECKSTYLE)
@@ -56,7 +56,7 @@ allprojects {
 //            exclude("**/generated/**")
 //            include("**/kotlin/**")
 //        }
-    }
+//    }
 
 //    dependencies {
 //        ktlintRuleset(project(":rules"))
