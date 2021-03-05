@@ -19,4 +19,11 @@ class NoVarRule : Rule("no-var") {
             emit(node.startOffset, "Unexpected var, use val instead", false)
         }
     }
+
+
+
+
+
+
+
 }
