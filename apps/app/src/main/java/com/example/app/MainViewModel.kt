@@ -1,4 +1,4 @@
-package com.example.ktlint
+package com.example.app
 
 class MainViewModel {
 
